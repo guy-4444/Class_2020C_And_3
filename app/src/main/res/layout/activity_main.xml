@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Click Here"/>-->
+
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            style="@style/Widget.MaterialComponents.Button.TextButton"-->
+<!--            app:strokeColor="@color/colorPrimary"-->
+<!--            app:cornerRadius="50dp"-->
+<!--            app:icon="@drawable/ic_play_24"-->
+<!--            android:textSize="20sp"-->
+<!--            android:text="Click Here"/>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:background="?attr/selectableItemBackground"-->
+<!--            android:clickable="true">-->
+
+<!--        </RelativeLayout>-->
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/main_LBL_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            />
+
+        <FrameLayout
+            android:id="@+id/main_LAY_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"/>
+
+        <FrameLayout
+            android:id="@+id/main_LAY_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

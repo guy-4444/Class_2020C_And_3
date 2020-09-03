@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="padding_normal">10dp</dimen>
+    <dimen name="viewpager_imageWidth_height">200dp</dimen>
+    <dimen name="viewpager_circleindicator_radius">4.5dp</dimen>
+
+    <dimen name="small_button_text_size">20sp</dimen>
+
+</resources>
